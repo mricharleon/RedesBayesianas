@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProbModelXML formatVersion="0.2.0">
+  <ProbNet type="BayesianNetwork">
+    <Variables>
+      <Variable name="PasarElModulo" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="558" y="241" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="InteligenciaArtificial" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="265" y="193" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="ControlAutomatizadoPorComputadores" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="563" y="109" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="AnteproyectoDeTesis" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="881" y="170" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="SistemasExpertos" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="307" y="321" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Simulacion" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="821" y="312" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Etica" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="563" y="387" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="revisiones_AT" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="1096" y="79" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="pruebas_CA" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="709" y="22" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="tareas_CA" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="391" y="25" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="pruebas_IA" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="178" y="45" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="pruebas_S" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="1070" y="405" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="tareas_S" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="903" y="432" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="pruebas_E" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="593" y="506" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="tareas_E" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="443" y="500" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="pruebas_SE" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="281" y="476" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="tareas_SE" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="131" y="442" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="tareas_IA" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="50" y="110" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Asistencia_IA" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="295" y="81" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Asistencia_SE" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="67" y="373" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Asistencia_CA" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="546" y="22" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Asistencia_AN" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="929" y="81" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Asistencia_SI" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="1080" y="309" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Asistencia_ET" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="770" y="506" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+    </Variables>
+    <Links>
+      <Link directed="true">
+        <Variable name="InteligenciaArtificial" />
+        <Variable name="PasarElModulo" />
+      </Link>
+      <Link directed="true">
+        <Variable name="ControlAutomatizadoPorComputadores" />
+        <Variable name="PasarElModulo" />
+      </Link>
+      <Link directed="true">
+        <Variable name="AnteproyectoDeTesis" />
+        <Variable name="PasarElModulo" />
+      </Link>
+      <Link directed="true">
+        <Variable name="SistemasExpertos" />
+        <Variable name="PasarElModulo" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Simulacion" />
+        <Variable name="PasarElModulo" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Etica" />
+        <Variable name="PasarElModulo" />
+      </Link>
+      <Link directed="true">
+        <Variable name="revisiones_AT" />
+        <Variable name="AnteproyectoDeTesis" />
+      </Link>
+      <Link directed="true">
+        <Variable name="pruebas_CA" />
+        <Variable name="ControlAutomatizadoPorComputadores" />
+      </Link>
+      <Link directed="true">
+        <Variable name="tareas_CA" />
+        <Variable name="ControlAutomatizadoPorComputadores" />
+      </Link>
+      <Link directed="true">
+        <Variable name="pruebas_IA" />
+        <Variable name="InteligenciaArtificial" />
+      </Link>
+      <Link directed="true">
+        <Variable name="pruebas_S" />
+        <Variable name="Simulacion" />
+      </Link>
+      <Link directed="true">
+        <Variable name="tareas_S" />
+        <Variable name="Simulacion" />
+      </Link>
+      <Link directed="true">
+        <Variable name="pruebas_E" />
+        <Variable name="Etica" />
+      </Link>
+      <Link directed="true">
+        <Variable name="tareas_E" />
+        <Variable name="Etica" />
+      </Link>
+      <Link directed="true">
+        <Variable name="pruebas_SE" />
+        <Variable name="SistemasExpertos" />
+      </Link>
+      <Link directed="true">
+        <Variable name="tareas_SE" />
+        <Variable name="SistemasExpertos" />
+      </Link>
+      <Link directed="true">
+        <Variable name="tareas_IA" />
+        <Variable name="InteligenciaArtificial" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Asistencia_IA" />
+        <Variable name="InteligenciaArtificial" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Asistencia_SE" />
+        <Variable name="SistemasExpertos" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Asistencia_CA" />
+        <Variable name="ControlAutomatizadoPorComputadores" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Asistencia_AN" />
+        <Variable name="AnteproyectoDeTesis" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Asistencia_SI" />
+        <Variable name="Simulacion" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Asistencia_ET" />
+        <Variable name="Etica" />
+      </Link>
+    </Links>
+    <Potentials>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="PasarElModulo" />
+          <Variable name="AnteproyectoDeTesis" />
+          <Variable name="ControlAutomatizadoPorComputadores" />
+          <Variable name="Etica" />
+          <Variable name="InteligenciaArtificial" />
+          <Variable name="Simulacion" />
+          <Variable name="SistemasExpertos" />
+        </Variables>
+        <Values>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="InteligenciaArtificial" />
+          <Variable name="Asistencia_IA" />
+          <Variable name="pruebas_IA" />
+          <Variable name="tareas_IA" />
+        </Variables>
+        <Values>0.7 0.2 0.1 0.5 0.4 0.1 0.1 0.4 0.5 0.1 0.3 0.6 0.0 0.3 0.7 0.0 0.2 0.8 0.3 0.3 0.4 0.3 0.5 0.2 0.0 0.4 0.6 0.0 0.3 0.7 0.0 0.2 0.8 0.0 0.1 0.9 0.2 0.3 0.5 0.2 0.5 0.3 0.1 0.3 0.6 0.0 0.2 0.8 0.0 0.1 0.9 0.0 0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="ControlAutomatizadoPorComputadores" />
+          <Variable name="Asistencia_CA" />
+          <Variable name="pruebas_CA" />
+          <Variable name="tareas_CA" />
+        </Variables>
+        <Values>0.7 0.2 0.1 0.5 0.4 0.1 0.1 0.4 0.5 0.1 0.3 0.6 0.0 0.3 0.7 0.0 0.2 0.8 0.3 0.3 0.4 0.3 0.5 0.2 0.0 0.4 0.6 0.0 0.3 0.7 0.0 0.2 0.8 0.0 0.1 0.9 0.2 0.3 0.5 0.2 0.5 0.3 0.1 0.3 0.6 0.0 0.2 0.8 0.0 0.1 0.9 0.0 0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="AnteproyectoDeTesis" />
+          <Variable name="Asistencia_AN" />
+          <Variable name="revisiones_AT" />
+        </Variables>
+        <Values>0.6 0.2 0.2 0.5 0.2 0.3 0.1 0.2 0.7 0.0 0.1 0.9 0.0 0.1 0.9 0.0 0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="SistemasExpertos" />
+          <Variable name="Asistencia_SE" />
+          <Variable name="pruebas_SE" />
+          <Variable name="tareas_SE" />
+        </Variables>
+        <Values>0.7 0.2 0.1 0.5 0.4 0.1 0.1 0.4 0.5 0.1 0.3 0.6 0.0 0.2 0.8 0.0 0.2 0.8 0.3 0.3 0.4 0.3 0.5 0.2 0.0 0.4 0.6 0.0 0.3 0.7 0.0 0.2 0.8 0.0 0.1 0.9 0.2 0.3 0.5 0.2 0.5 0.3 0.1 0.3 0.6 0.0 0.2 0.8 0.0 0.1 0.9 0.0 0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Simulacion" />
+          <Variable name="Asistencia_SI" />
+          <Variable name="pruebas_S" />
+          <Variable name="tareas_S" />
+        </Variables>
+        <Values>0.7 0.2 0.1 0.5 0.4 0.1 0.1 0.4 0.5 0.1 0.3 0.6 0.0 0.3 0.7 0.0 0.2 0.8 0.3 0.3 0.4 0.3 0.5 0.2 0.0 0.4 0.6 0.0 0.3 0.7 0.0 0.2 0.8 0.0 0.1 0.9 0.2 0.3 0.5 0.2 0.5 0.3 0.1 0.3 0.6 0.0 0.2 0.8 0.0 0.1 0.9 0.0 0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Etica" />
+          <Variable name="Asistencia_ET" />
+          <Variable name="pruebas_E" />
+          <Variable name="tareas_E" />
+        </Variables>
+        <Values>0.7 0.2 0.1 0.5 0.4 0.1 0.1 0.4 0.5 0.1 0.3 0.6 0.0 0.3 0.7 0.0 0.2 0.8 0.3 0.3 0.4 0.3 0.5 0.2 0.0 0.4 0.6 0.0 0.3 0.7 0.0 0.2 0.8 0.0 0.1 0.9 0.2 0.3 0.5 0.2 0.5 0.3 0.1 0.3 0.6 0.0 0.2 0.8 0.0 0.1 0.9 0.0 0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="revisiones_AT" />
+        </Variables>
+        <Values>0.5 0.3 0.2</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="pruebas_CA" />
+        </Variables>
+        <Values>0.28629 0.428 0.28571</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="tareas_CA" />
+        </Variables>
+        <Values>0.34 0.33 0.33</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="pruebas_IA" />
+        </Variables>
+        <Values>0.28629 0.428 0.28571</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="pruebas_S" />
+        </Variables>
+        <Values>0.28629 0.428 0.28571</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="tareas_S" />
+        </Variables>
+        <Values>0.34 0.33 0.33</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="pruebas_E" />
+        </Variables>
+        <Values>0.28629 0.428 0.28571</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="tareas_E" />
+        </Variables>
+        <Values>0.34 0.33 0.33</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="pruebas_SE" />
+        </Variables>
+        <Values>0.28629 0.428 0.28571</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="tareas_SE" />
+        </Variables>
+        <Values>0.34 0.33 0.33</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="tareas_IA" />
+        </Variables>
+        <Values>0.3333333333333333 0.3333333333333333 0.3333333333333333</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Asistencia_IA" />
+        </Variables>
+        <Values>0.2 0.8</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Asistencia_SE" />
+        </Variables>
+        <Values>0.2 0.8</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Asistencia_CA" />
+        </Variables>
+        <Values>0.2 0.8</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Asistencia_AN" />
+        </Variables>
+        <Values>0.2 0.8</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Asistencia_SI" />
+        </Variables>
+        <Values>0.2 0.8</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Asistencia_ET" />
+        </Variables>
+        <Values>0.2 0.8</Values>
+      </Potential>
+    </Potentials>
+    <AdditionalProperties>
+      <Property name="VisualPrecision" value="0.0" />
+      <Property name="KindOfGraph" value="directed" />
+      <Property name="Version" value="1.0" />
+    </AdditionalProperties>
+  </ProbNet>
+</ProbModelXML>
